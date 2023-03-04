@@ -1,0 +1,26 @@
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.image-container img {
+    display: block;
+    width: 800px;
+    height: 500px;
+    object-fit: fill;
+}
+  
+.small-images {
+    display: flex;
+    justify-content: center;
+  }
+  
+.small-images img {
+    display: inline-block;
+    width: 200px;
+    height: 170px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
